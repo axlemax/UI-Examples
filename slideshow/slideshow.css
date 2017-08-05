@@ -1,0 +1,9 @@
+.slideshow-container {
+    max-width: 85%;
+    position: relative;
+    margin: auto;       /* centers the container */
+}
+
+img {
+    width: 100%;    /* keeps the images resized to thier container */
+}
