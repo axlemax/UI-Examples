@@ -7,3 +7,68 @@
 img {
     width: 100%;    /* keeps the images resized to thier container */
 }
+
+.mySlides {
+    display: none;  /* initially hide the slides */
+}
+
+/* Next and previous buttons (arrows) */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;        /* */
+    /*margin-top: */
+    /*padding: */
+    color: white;
+    font-weight: bold;
+    font-size: 1.0em;
+    transition: 0.6s ease;  /* fading effect */
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;   /* moves the "next" button / arrow to the right */
+    /*border-radius: 3px 0 0 3px;*/
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    /*position: absolute;*/
+    /*top: 0;*/
+}
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    /*margin: 0 2px;*/
+    background-color: #bbb;
+    border-radius: 50%;     /* This makes the shape a circle */
+    /*display: inline-block;*/
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1.0}
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1.0}
+}
