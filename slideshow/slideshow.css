@@ -39,7 +39,8 @@ img {
 
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 22px;
+  font-family: sans-serif;
   padding: 8px 12px;
   position: absolute;   /* Places text on the image */
   bottom: 8px;
@@ -50,8 +51,9 @@ img {
 /* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 12px 12px;
     position: absolute;     /* Places text on the image */
     top: 0;
 }

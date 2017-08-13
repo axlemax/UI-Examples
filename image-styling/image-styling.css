@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    margin: 2%;     /* Adds space on all sides of the image  */
+}
+
+.img-container {
+    text-align: center; /* Centers whatever is in this container (images) */
+    margin: auto;       /* Centers the container */
+}
+
+
+/* Cuts the coners to create an ellipse */
+.image-round {
+    border-radius: 50%;
+}
+
+/* Cuts the coners to be a bit rounded */
+.image-rounded-corners {
+    border-radius: 8px;
+}
+
+.caption-container {
+    text-align: center;
+    width: 100%;
+}
+
+.caption-text {
+    margin: 12%;
+}
