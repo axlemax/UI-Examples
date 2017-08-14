@@ -11,6 +11,12 @@ img {
 }
 
 .image-container {
-    width: 80%;     /* The remaining space will be used for the margin */
     margin: auto 10%;
+}
+
+.caption-text {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin: 10px auto;
 }
