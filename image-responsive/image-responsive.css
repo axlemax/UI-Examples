@@ -1,0 +1,16 @@
+
+/* Causes the image to auto-resize up to the original width */
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.image-center {
+    display: block;
+    margin: 0 auto;     /* Centers the image by spreading margin out left & right */
+}
+
+.image-container {
+    width: 80%;     /* The remaining space will be used for the margin */
+    margin: auto 10%;
+}
