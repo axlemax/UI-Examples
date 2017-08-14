@@ -1,0 +1,22 @@
+img {
+     /* Prevents the images from expanding out of the card containers */
+    max-width: 100%;
+}
+
+.image-container {
+    width: 50%;
+    float: left;    /* Keeps images on the same line if possible */
+}
+
+.image-card {
+    float: left;    /* Prevents elements from expanding to fit parent */
+    max-width: 400px;
+    /* Here is the neat shadow effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caption-text {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+}
