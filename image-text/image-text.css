@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    /* Positons the container relative to its normal positon*/
+    position: relative;
+}
+
+.center {
+    /* Ensures the text is placed where we specify regardless of everything else */
+    position: absolute;
+    top: 50%;       /* Centers vertically */
+    left: 50%;      /* Centers horizontally */
+    transform: translate(-50%, -50%);   /* Moves center of text to the middle */
+}
+
+img {
+    width: 100%;
+    height: auto;   /* Keeps the image responsive */
+    opacity: 0.3;   /* To se the text more clearly */
+}
