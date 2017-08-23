@@ -15,6 +15,34 @@
     transform: translate(-50%, -50%);   /* Moves center of text to the middle */
 }
 
+.top-left {
+    /* Ensures the text is placed where we specify regardless of everything else */
+    position: absolute;
+    top: 8px;       /* Vertical position */
+    left: 16px;    /* Relative horizontal positon */
+}
+
+.top-right {
+    /* Ensures the text is placed where we specify regardless of everything else */
+    position: absolute;
+    top: 8px;       /* Vertical position */
+    right: 16px;    /* Relative horizontal positon */
+}
+
+.bottom-left {
+    /* Ensures the text is placed where we specify regardless of everything else */
+    position: absolute;
+    bottom: 8px;       /* Vertical position */
+    left: 16px;    /* Relative horizontal positon */
+}
+
+.bottom-right {
+    /* Ensures the text is placed where we specify regardless of everything else */
+    position: absolute;
+    bottom: 8px;       /* Vertical position */
+    right: 16px;    /* Relative horizontal positon */
+}
+
 img {
     width: 100%;
     height: auto;   /* Keeps the image responsive */
