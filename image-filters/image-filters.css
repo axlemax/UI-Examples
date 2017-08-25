@@ -1,0 +1,79 @@
+* {
+    font-family: sans-serif;
+}
+
+figure {
+    margin: 0;
+    /* reset default styling */
+    /* Positons the container relative to its normal positon*/
+    position: relative;
+    width: 33%;
+    /* 3 images per line */
+    height: auto;
+    float: left;
+    /* ensure the images are placed on one line */
+}
+
+figcaption {
+    /* Ensures the text is placed where we specify regardless of everything else */
+    position: absolute;
+    top: 50%;
+    /* Centers vertically */
+    left: 50%;
+    /* Centers horizontally */
+    transform: translate(-100%, -50%);
+    /* Moves center of text to the middle */
+    color: red;
+    font-size: 150%;
+    text-align: center;
+}
+
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.contrast-increase {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+}
+
+.contrast-decrease {
+    -webkit-filter: contrast(60%);
+    filter: contrast(60%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.opacity {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+.saturate {
+    -webkit-filter: saturate(7);
+    filter: saturate(7);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
+}
