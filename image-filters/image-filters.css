@@ -21,7 +21,7 @@ figcaption {
     /* Centers vertically */
     left: 50%;
     /* Centers horizontally */
-    transform: translate(-100%, -50%);
+    transform: translate(-50%, -50%);
     /* Moves center of text to the middle */
     color: red;
     font-size: 150%;
